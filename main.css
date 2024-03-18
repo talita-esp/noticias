@@ -1,11 +1,26 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     
 }
+
+body > header {
+    background-color: rgb(253, 153, 3);
+    padding: 16px 0;
+}
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 header li {
     display: inline;
+}
+
+header li a {
+    color: black;
 }
 .container {
     width: 1366;
@@ -15,7 +30,7 @@ header li {
 
 .articles{
     display: flex;
-    flex-wrap: ;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -27,18 +42,51 @@ header li {
     width: 30%;
 }
 
+section {
+    padding: 16px 0;
+}
+
+section h2
+.articles article {
+    margin-bottom: 16px ;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.articles article a {
+    background-color: blue;
+    color: aliceblue;
+    padding: 8px;
+    display: inline-block;
+}
+
 
 
 h1 {
-    color: red;
+    color: rgb(79, 84, 136);
 }
 h2 {
-    color: blue;
+    color: rgb(236, 30, 30);
 }
-#economy h2{
-    color: yellowgreen;
+
+#economy h2 {
+    color: rgb(201, 198, 12);
+}
+
+#esportes h2{
+    color: aqua;
+    }
+
+#agricola h2 {
+    color: rgb(15, 206, 15);
+}
+
+#eleicao h2 {
+    color: blue;
 }
 
 * { 
-    color: gray;
+    color: rgb(79, 84, 136);
 }
