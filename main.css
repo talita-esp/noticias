@@ -7,8 +7,10 @@
 
 body > header {
     background-color: rgb(253, 153, 3);
-    padding: 16px 0;
+    padding: 20px 0;
 }
+
+
 header .container {
     display: flex;
     align-items: center;
@@ -22,6 +24,11 @@ header li {
 header li a {
     color: black;
 }
+
+body section {
+    background-color:  rgb(153, 12, 235);
+}
+
 .container {
     width: 1366;
     margin: 0 auto 0 auto;
@@ -35,7 +42,7 @@ header li a {
 }
 
 .articles article img {
-    height: 180px;
+    height: 200px;
 }
 
 .articles article {
@@ -67,26 +74,32 @@ section h2
 h1 {
     color: rgb(79, 84, 136);
 }
+
 h2 {
-    color: rgb(236, 30, 30);
+    color: rgb(79, 84, 136);
+    background-color: rgb(253, 153, 3);
 }
 
 #economy h2 {
-    color: rgb(201, 198, 12);
+    color: rgb(79, 84, 136);
+    background-color: rgb(253, 153, 3);
 }
 
 #esportes h2{
-    color: aqua;
+    color:rgb(79, 84, 136);
+    background-color: rgb(253, 153, 3);
     }
 
 #agricola h2 {
-    color: rgb(15, 206, 15);
+    color: rgb(79, 84, 136);
+    background-color: rgb(253, 153, 3);
 }
 
 #eleicao h2 {
-    color: blue;
+    color: ;
+    background-color: rgb(253, 153, 3);
 }
 
 * { 
-    color: rgb(79, 84, 136);
+    color: rgb(7, 6, 6);
 }
